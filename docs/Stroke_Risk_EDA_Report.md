@@ -163,7 +163,7 @@ This report explores a healthcare dataset containing clinical and demographic in
 
 ### Hypertension vs Stroke
 
-![Hypertension vs Stroke](../outputs/hypertension_vs_stroke.png)
+![Hypertension vs Stroke](../outputs/hypertension_heartdisease_barplot.png)
 
 - Stroke is much more prevalent in hypertensive patients.
 - Hypertension may be one of the strongest single predictors.
@@ -177,16 +177,6 @@ This report explores a healthcare dataset containing clinical and demographic in
 - **Glucose Level and BMI** show strong metabolic associations.
 - **Class imbalance** is extreme: special techniques required for modeling.
 - **Smoking** shows mixed results; likely confounded by age.
-
----
-
-## Recommendations
-
-- Use resampling or class weighting during modeling to address imbalance.
-- Prioritize `age`, `hypertension`, `heart_disease`, `avg_glucose_level`, and `bmi` as features.
-- Conduct feature engineering (e.g., age bins, interaction terms).
-- Evaluate models using recall, F1-score, and AUC rather than raw accuracy.
-- Consider model interpretability techniques for healthcare stakeholders.
 
 ---
 
