@@ -1,9 +1,9 @@
-# MacOS
+# Ignore Mac system files
 .DS_Store
 
-# Jupyter
+# Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
 
-# Outputs temporales
+# Ignore PDF outputs
 *.pdf
