@@ -170,6 +170,30 @@ This report explores a healthcare dataset containing clinical and demographic in
 
 ---
 
+## Statistical Hypothesis Testing
+
+To validate the relationships observed in the exploratory analysis, formal statistical tests were performed:
+- Categorical Variables:
+Chi-Squared tests were applied to assess associations with stroke occurrence.
+- Statistically significant associations were found for:
+	•	Hypertension
+	•	Heart Disease
+	•	Ever Married
+	•	Work Type
+	•	Smoking Status
+- No significant association was found for:
+	•	Gender
+	•	Residence Type
+	•	Numerical Variables:
+- Mann-Whitney U tests were applied to compare distributions between stroke and non-stroke groups.
+	•	Significant differences (p < 0.05) were found for:
+	•	Age
+	•	Average Glucose Level
+	•	BMI
+
+These results confirm that multiple features are strongly associated with stroke risk and will contribute valuable information for future predictive modeling.
+---
+
 ## Key Insights
 
 - **Age** is the dominant risk factor.
