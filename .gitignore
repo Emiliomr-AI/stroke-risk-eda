@@ -1,0 +1,9 @@
+# MacOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Outputs temporales
+*.pdf
